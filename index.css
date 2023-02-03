@@ -109,3 +109,63 @@ main{
 .joygirl img{
     width: 100%;
 }
+/* second section */
+.second-section{
+    background: #F8F9FC;
+    color: #000000;
+    margin-top: 5vh;
+    padding:  3vh 7.5% 0;
+    display: flex;
+    justify-content: space-between;
+}
+.second-section .img{
+    width: 40%;
+}
+.second-section .img img{
+    width: 100%;
+}
+.showcase{
+    width: 50%;
+    padding-top: 2vh;
+}
+.showcase h6{
+    font-weight: 700;
+    font-size: 0.9em;
+    line-height: 150%;
+    padding-bottom: 1vh;
+}
+.showcase h3{
+    font-weight: 800;
+    font-size: 1.6em;
+    line-height: 150%;
+    padding-bottom: 2vh;
+    width: 70%;
+}
+.showcase p{
+    width: 90%;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 150%;
+    text-align: justify;
+    color: #292929;
+    padding-bottom: 2vh;
+}
+.showcase ul{
+    margin-bottom: 3vh;
+}
+.showcase li{
+    color: #141414;
+    font-weight: 500;
+    font-size: 0.9em;
+    line-height: 150%;
+    padding-bottom: 1vh;
+}
+.showcase a{
+    font-weight: 500;
+    font-size: 0.9em;
+    line-height: 150%;
+    background: #4A6DA7;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 2vh 2vh;
+}
