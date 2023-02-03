@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gothic A1', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 7.5%;
+}
+.first-header{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+.first-header nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 7%; */
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 20px;
+  
+}
+nav a{
+    color: #000000;
+}
+.first-header .img{
+    display: flex;
+    align-items: center;
+}
+.second-header{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 20px;
+    padding-top: 1vh;
+}
+.second-header img{
+    width: 80%;
+}
+.second-header a {
+    color: #4A6DA7;
+}
+.second-header .sign {
+    background-color: #4A6DA7;
+    color: #FFFFFF;
+    padding: 1vh 3vh;
+    border-radius: 8px;
+    margin-top: -1vh;
+     font-weight: 600;
+    font-size: 1em;
+    line-height: 20px;
+}
+
+main{
+    
+}
+.first-section{
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 5vh 7.5% 0;
+    display: flex;
+    justify-content: space-between;   
+}
+.build{
+    margin: 10vh 0;
+    width: 65%;
+}
+.build h2{
+    font-weight: 700;
+    font-size: 3em;
+    line-height: 150%;
+    padding-bottom: 2vh;
+}
+.build p{
+    color: #CCCCCC;
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 150%;
+    text-align: justify;
+    margin-bottom: 5vh;
+}
+.build a{
+    background-color: #4A6DA7;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 2vh 3vh;
+    margin-top: 3vh;
+    font-weight: 600;
+    font-size: 0.9em;
+    line-height: 150%;
+}
+.joygirl{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+.joygirl img{
+    width: 100%;
+}
