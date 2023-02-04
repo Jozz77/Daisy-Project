@@ -313,6 +313,7 @@ main{
 }
 /* sixth section */
 .sixth-section{
+    position: relative;
     margin-top: 5vh;
     background: #FFFCFA;
     display: flex;
@@ -358,6 +359,26 @@ main{
 }
 .sixth-section .img img{
     width: 100%;
+}
+.arrow{
+    position: absolute;
+    top: 88%;
+    right: 2%;
+    width: 2.5%;
+}
+.arrow img{
+    width: 100%;
+    cursor: pointer;
+    -webkit-animation: mover 0.3s infinite  alternate;
+    animation: mover 0.3s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
 }
 
 /* footer */
