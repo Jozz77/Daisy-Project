@@ -16,6 +16,7 @@ header{
     background-color: #FFFFFF;
     padding: 1vh 7.5% 2vh;
     position: fixed;
+    z-index: 2;
 }
 .first-header{
     width: 35%;
