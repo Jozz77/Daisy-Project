@@ -1,0 +1,66 @@
+/* footer */
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+footer{
+    margin-top: 5vh;
+    background: #000000;
+    color: #FFFFFF;
+    padding: 4vh 7.5%;
+}
+.footer-1{
+    display: flex;
+    justify-content: space-between;
+}
+.pro-feat h4{
+    font-weight: 600;
+    font-size: 1.1em;
+    line-height: 150%;
+    padding-bottom: 1.5vh;
+}
+.pro-feat div{
+    display: flex;
+    flex-direction: column;
+}
+.pro-feat a{
+    font-weight: 600;
+    font-size: 0.9em;
+    line-height: 150%;
+    padding-bottom: 1vh;
+    color: #B8B8B8;
+}
+.pro-feat a:hover{
+    color: #4A6DA7;
+}
+
+.footer-2{
+    padding-top: 5vh;
+}
+.footer-2 div{
+    width: 7%;
+    margin-bottom: 1vh;
+}
+.footer-2 div img{
+    width: 100%;
+}
+.footer-2 p{
+    font-weight: 400;
+    font-size: 0.9em;
+    line-height: 150%;
+    /* padding-bottom: 2vh; */
+}
+.footer-2 .pad{
+    margin-bottom: 2vh;
+}
+.footer-2 span{
+    font-weight: 600;
+    font-size: 0.9em;
+    line-height: 150%;
+    padding: 1vh 10vh 1vh 1vh;
+    /* margin-top: 3vh; */
+    border: 1px solid;
+}

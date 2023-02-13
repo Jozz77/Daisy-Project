@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gothic A1', sans-serif;
+    position: relative;
+    background: #EBEBEB;
+}
+main{
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #292929;
+}
+.contact{
+    width: 50%;
+    margin-top: 10vh;
+}
+.contact h2{
+    font-weight: 600;
+    font-size: 1.7em;
+    line-height: 150%;
+    text-align: center;
+    padding-bottom: 1vh;
+    color: #000000;
+}
+.contact .pp{
+    font-weight: 600;
+    font-size: 1.1em;
+    line-height: 150%;
+    color: #292929;
+    text-align: center;
+    padding-bottom: 7vh;
+}
+.images{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6vh;
+}
+.images img{
+    width: 17%;
+}
+.con{
+    display: flex;
+    justify-content: space-between;
+}
+.cont{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cont .img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1vh;
+}
+.cont img{
+    width: 30%;
+    align-items: center;
+}
+.cont small{
+    font-weight: 600;
+    font-size: 0.9em;
+    line-height: 150%;
+    text-align: center;
+    padding-bottom: 2vh;
+}
+.cont p{
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 150%;
+    text-align: center;
+}

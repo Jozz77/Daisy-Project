@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gothic A1', sans-serif;
+    position: relative;
+    background: #EBEBEB;
+}
+main{
+    position: relative;
+    /* height: 1000px; */
+    padding-top: 10vh;
+    padding-bottom: 3vh;
+}
+/* first section */
+.first-about{
+    margin-top: 7vh;
+    padding: 5vh 7.5% 7vh;
+    display: flex;
+    justify-content: space-between; 
+    background: #F8F9FC;
+
+}
+.what{
+    width: 50%;
+}
+.what small{
+    font-weight: 700;
+    font-size: 0.9em;
+    line-height: 150%;
+    color: #3D3D3D;
+    
+}
+.what h2{
+    font-weight: 800;
+    font-size: 1.7em;
+    line-height: 150%;
+    padding-top: 3vh;
+}
+.what p {
+    font-weight: 600;
+    font-size: 1.1em;
+    line-height: 150%;
+    color: #3D3D3D;
+    padding-top: 3vh;
+    margin-bottom: 5vh;
+    width: 90%;
+    text-align: justify;
+}
+.what a {
+    font-weight: 600;
+    font-size: 0.9em;
+    line-height: 150%;
+    color: #FFFFFF;
+    background: #6F7682;
+    border-radius: 8px;
+    padding: 2vh 5%;
+}
+.first-about .img{
+    width: 40%;
+}
+.first-about .img img{
+    width: 100%;
+}
+/* second section */
+.second-about{
+    margin-top: 7vh;
+    padding: 7vh 7.5%;
+    display: flex;
+    justify-content: space-between;
+    background: #FBFCFD;
+}
+.second-about .img{
+    width: 40%;
+}
+.second-about .img img{
+    width: 100%;
+}
+.mission{
+    width: 50%;
+    padding-top: 5vh;
+}
+.mission h2{
+    font-weight: 700;
+    font-size: 1.7em;
+    line-height: 150%;
+    padding-bottom: 3vh;
+}
+.mission p{
+    font-weight: 600;
+    font-size: 1.1em;
+    line-height: 150%;
+    text-align: justify;
+    width: 100%;
+    color: #3D3D3D;
+}
+/* third section */
+.third-about{
+    margin-top: 7vh;
+    padding: 7vh 7.5%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background: #FBFCFD;
+}
+.third-about .img{
+    width: 45%;
+}
+.third-about .img img{
+    width: 100%;
+}
+.story{
+    width: 50%;
+    padding-top: 3vh;
+}
+.story h2{
+    font-weight: 700;
+    font-size: 1.7em;
+    line-height: 150%;
+    padding-bottom: 3vh;
+}
+.story p{
+    font-weight: 600;
+    font-size: 1.1em;
+    line-height: 150%;
+    text-align: justify;
+    width: 90%;
+    color: #3D3D3D;
+}
