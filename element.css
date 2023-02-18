@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gothic A1', sans-serif;
+    position: relative;
+    background: #cce3ff65;
+    margin: 0 15%;
+}
+header{
+    background-color: #000000;
+    color: #ffffff;
+    padding:  3vh 7.5%;
+}
+header h2{
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 150%;
+    padding-bottom: 1vh;
+}
+header p{
+    font-weight: 600;
+    font-size: 1.05em;
+    line-height: 150%;
+    width: 90%;
+}
+/* main section */
+main{
+    padding: 4vh 7.5% 15vh;
+    background: #E9E9E9;    
+}
+.all-icons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+.all-icons a{
+    width: 49%;
+    color: #000000;
+}
+.each{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 3vh 5%;
+    width: 100%;
+    margin-bottom: 3vh;
+}
+.each:hover{
+    background: #ffffff7a;
+    border-radius: 8px;
+}
+.each-text{
+    width: 80%;
+}
+.each h3 {
+    font-weight: 600;
+    font-size: 1.3em;
+    line-height: 150%;
+}
+.each p {
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 150%;
+}
+.each .img{
+    width: 20%;
+}
+.each .img img{
+    width: 90%;
+}
+.explore a{
+    color: #000000;
+}
+.explore{
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    padding: 3vh 5%;
+    color: #000000;
+}
+.explore:hover{
+    background: #ffffff7a;
+    border-radius: 8px;
+}
+.explore h2{
+    font-weight: 600;
+    font-size: 1.3em;
+    line-height: 150%;
+    color: #000000;
+}
+.explore p{
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 150%;
+}
+.explore-1{
+    /* width: 80%; */
+}
+.visit{
+    margin-top: 1vh;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+.visit .img{
+    width: 70%;
+}
+.visit .img img{
+    width: 70%;
+}
+.explore-2{
+    /* width: 30%; */
+}
+.explore-2 img{
+    width: 60%;
+    margin-left: 40%;
+}

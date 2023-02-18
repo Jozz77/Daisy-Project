@@ -2,5 +2,5 @@
 
 document.addEventListener("click", function(){
     let arrowUp = document.getElementsByClassName("arrow");
-    arrowUp = 
+    arrowUp = document.documentElement.scrollTop = 0;
   });

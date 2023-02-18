@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gothic A1', sans-serif;
+    position: relative;
+    background: #cce3ff65;
+    margin: 0 15%;
+}
+header{
+    background-color: #000000;
+    color: #ffffff;
+    padding:  3vh 7.5%;
+}
+header h2{
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 150%;
+    padding-bottom: 1vh;
+}
+header p{
+    font-weight: 600;
+    font-size: 1.05em;
+    line-height: 150%;
+    width: 90%;
+}
+/* main section */
+main{
+    padding: 4vh 7.5% 15vh;
+    background: #E9E9E9;    
+}
+.name{
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 3vh 5%;
+    display: flex;
+    gap: 3%;
+}
+.name .img{
+    width: 15%;
+}
+.name .img img{
+    width: 100%;
+}
+.name h4{
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 150%;
+    margin-top: 3vh;
+}
+.name p{
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 150%;
+}
+.first-setting, .second-setting{
+    background-color: #FFFFFF;
+    margin-top: 3vh;
+    padding: 2vh 2%;
+    border-radius: 8px;
+}
+.button:hover{
+    background: #E9E9E9;
+    border-radius: 8px;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 1%;
+}
+.first{
+    display: flex;
+    gap: 5%;
+    width: 30%;
+    align-items: center;
+}
+.first p{
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 150%;
+    color: #292929;
+
+}
+.first .img{
+    width: 10%;
+}
+.first .img img{
+    width: 100%;
+}
+.button .imgs{
+    width: 3%;
+}
+.button .imgs img{
+    width: 100%;
+}

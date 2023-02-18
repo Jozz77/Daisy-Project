@@ -6,48 +6,54 @@
     box-sizing: border-box;
 }
 body{
+    margin: 0 15%;
+    background: #cce3ff65;
+}
+.background{
     font-family: 'Gothic A1', sans-serif;
-    position: relative;
     background: #E9E9E9;
+    padding: 17vh 0;
 }
 header{
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 70%;
     background: #FFFFFF;
     padding: 2vh 5%;
     display: flex;
     justify-content: space-between;
 }
 .logo{
-    width: 30%;
+    width: 40%;
 }
 .logo img{
     width: 100%;
 }
 .edit{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-    width: 20%;
+    gap: 8%;
+    width: 30%;
 }
 .edit .img{
-    width: 17%;
+    width: 15%;
+    margin-left: 7%;
 }
 .edit .img img{
     width: 100%;
 }
 .button{
     position: relative;
-    width: 70%;
+    width: 60%;
 }
 .button a{
     color: #4A6DA7;
     border: 2px solid #4A6DA7;
     border-radius: 8px;
-    padding: 2vh 20% 2vh 30%;
+    padding: 2vh 25% 1.5vh 30%;
     font-weight: 600;
-    font-size: 0.9em;
+    font-size: 0.8em;
     line-height: 150%;
 }
 .button img{
@@ -55,3 +61,94 @@ header{
     left: 10%;
     width: 12%;
 }
+/* main */
+.profile {
+    background: #FFFFFF;
+    margin: 0 7.5% ;
+    padding: 3vh 5% 0;
+    border-radius: 8px;
+    
+}
+.first-profile{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.profile-details{
+    width: 70%;
+    padding-top: 5vh;
+}
+.profile-details h1{
+    font-weight: 500;
+    font-size: 1.8em;
+    line-height: 150%;
+    margin-bottom: 3vh;
+}
+.profile-details p{
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 150%;
+    margin-bottom: 3vh;
+    width: 90%;
+}
+.profile-details .img{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.profile-details .img img{
+    width: 25%;
+}
+.profile-edit{
+    width: 25%;
+  
+}
+.profile-edit .img{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+    margin-left: 35%;
+}
+.profile-edit .img img{
+    width: 40%;
+}
+.profile-img{
+    width: 90%;
+}
+.profile-img img{
+    width: 100%;
+}
+/* second section */
+.second-profile{
+    margin: 8vh 3% 0;
+    background: #FAF9F9;
+    text-align: center;
+    padding: 7vh 0 ;
+    color: #3D3D3D;
+}
+    .second-profile small{
+        font-weight: 400;
+        font-size: 0.9em;
+        line-height: 150%;
+       
+    }
+    .second-profile p{
+        font-weight: 600;
+        font-size: 0.9em;
+        line-height: 150%;
+        font-weight: bolder;
+        padding: 0.5vh 0;
+    }
+    .second-profile a{
+        font-weight: 600;
+        font-size: 0.9em;
+        line-height: 150%;
+        padding: 2vh 12%;
+        background: #4A6DA7;
+        color: #FFFFFF;
+        display: inline-flex;
+        margin-top: 3vh;
+        border-radius: 8px;
+    }
+    

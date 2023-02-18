@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+footer{
+    background: #111111;
+    font-family: 'Gothic A1', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 7.5%;
+    position: fixed;
+    bottom: 0;
+    width: 70%;
+}
+footer a{
+    color: #B8B8B8;
+    font-weight: 500;
+    font-size: 1.1em;
+    line-height: 150%;
+}
+footer a:hover{
+    color: #FFFFFF;
+}
+footer .active{
+    color: #FFFFFF;
+}
+.foot {
+    display: flex;
+    gap: 30%;
+}
+.foot .img{
+    display: none;
+}
+.foot #actv{
+    display: block;
+    width: 15%;
+}
+.footer img{
+    display: 90%;
+}
