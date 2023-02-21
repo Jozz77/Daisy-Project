@@ -33,75 +33,121 @@ main{
     padding: 4vh 7.5% 15vh;
     background: #E9E9E9;    
 }
-.templates{
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 3vh;
-}
-.templates .img{
-    width: 32%;
-    margin-bottom: 2vh;
-    cursor: pointer;
-    position: relative;
-}
-.templates .img img{
-    width: 100%;
-}
-.templates .img:hover .active{
-    position: absolute;
-    background: rgba(255, 255, 255, 0.8);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 0;
-    width: 100%;
-    height: 82%;
-}
-.active{
-    display: none;
-}
-.active a{
-    background: #4A6DA7;
-    color: #ffffff;
+.background{
+    background: #FFFFFF;
     border-radius: 8px;
-    padding: 1.5vh 10%;
+    padding: 2vh 5%;
+    margin-bottom: 3vh;
+}
+.background h2{
     font-weight: 600;
-    font-size: 0.9em;
+    font-size: 1.5em;
+    line-height: 150%;
+    margin-bottom: 2vh;
+}
+.background h4{
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 150%;
+    margin-bottom: 2vh;
+}
+.background span, .background p{
+    font-weight: 500;
+    font-size: 1em;
     line-height: 150%;
 }
-.active a:hover{
-    background: #4a6ea7cc;
-}
-.paginator{
+
+.color{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3vh;
+    gap: 5%;
     margin-bottom: 2vh;
 }
-.paginator a{
-    border: 1px solid #ffffff;
+.light{
+    display: flex;
+    gap: 10%;
+}
+.lock{
+    display: flex;
+    justify-content: space-between;
+}
+.dark{
+    display: flex;
+    gap: 30%;
+}
+
+.color-sec{
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 3vh 5%;
+}
+.color-sec h2{
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 150%;
+    margin-bottom: 1vh;
+}
+.color-sec p{
     font-weight: 500;
     font-size: 1.1em;
     line-height: 150%;
-    color: #3D3D3D;
-    padding: 1vh 2%;
+    margin-bottom: 3vh;
 }
-.paginator a:hover{
-    background: #4a6ea7cb;
-    border: 1px solid #4A6DA7;
-    color: white;
+.colors{
+    display: flex;
+    gap: 3%;
+    width: 100%;
+    margin-bottom: 1vh;
 }
-.paginator .act{
-    border: 1px solid #4A6DA7;
-    background: #4A6DA7;
-    color: #ffffff;
+.colors div{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
 }
-.paginator a img{
-    width: 75%;
+ .color-sec .blue{
+    background: #5837DB;
 }
-.paginator .dot{
-    font-weight: bolder;
+.color-sec .red{
+    background: #D04343;
+
+}
+.color-sec .black{
+    background: #000000;
+}
+.color-sec .orange{
+    background: #FFA8A7;
+
+}
+.color-sec .light-blue{
+    background: #A7DAFF;
+}
+.color-sec .yellow{
+    background: #FFFF00;
+;
+}
+.color-sec .purple{
+    background: #800080;
+}
+.color-sec .green{
+    background: #008000;
+
+}
+.Watermark{
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-top: 3vh;
+    padding: 3vh 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.Watermark h5{
+    font-weight: 500;
+    font-size: 1.1em;
+    line-height: 150%;
+}
+.Watermark div{
+    border-radius: 25%;
+    width: 40px;
+    height: 20px;
+    background: #FFFF00;
+
 }
